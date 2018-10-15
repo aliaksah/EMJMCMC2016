@@ -39,3 +39,4 @@ Theoretical & Applied Stochastics
 , Minsk, Belarus, September 2016](http://www.cdam.bsu.by/en/sm.aspx?guid=3033)
 
 ***
+ 
