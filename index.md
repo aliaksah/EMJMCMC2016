@@ -14,7 +14,7 @@ In this R package problems of Bayesian model selection and model averaging are a
 
 ![Concept](https://raw.githubusercontent.com/aliaksah/EMJMCMC2016/master/illustrations/opt_symmetric.png)
 
-## _** Developed by [Aliaksandr Hubin](http://www.mn.uio.no/math/english/people/aca/aliaksah/) and [Geir Storvik](http://www.mn.uio.no/math/personer/vit/geirs/)**_
+## _** Developed by [Aliaksandr Hubin](https://scholar.google.com/citations?user=Lx-G8ckAAAAJ&hl=en/), [Geir Storvik](https://scholar.google.no/citations?user=0xDw_sQAAAAJ&hl=en) and [Florian Frommlet](https://scholar.google.com/citations?user=Nmh2LqgAAAAJ&hl=en)**_
 
 ***
 **N/B To install the latest version run `install.packages("https://github.com/aliaksah/EMJMCMC2016/files/270429/EMJMCMC_1.2.tar.gz", repos = NULL, type="source")` in R.**
