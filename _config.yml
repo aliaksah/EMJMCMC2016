@@ -1,0 +1,8 @@
+title: Efficient mode jumping MCMC for Bayesian variable selection in GLMM
+description: A package with mode jumping MCMC for Bayesian variable selection and averaging within GLMM
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
