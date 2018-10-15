@@ -1,28 +1,9 @@
-Generalized linear mixed models ([GLMM](https://en.wikipedia.org/wiki/Generalized_linear_mixed_model)) are addressed for inference and
-prediction in a wide range of different applications providing a powerful
-scientific tool for the researchers and analysts coming from different
-fields. In most of these fields more and more sources of data are becoming
-available introducing a variety of hypothetical explanatory variables for
-these models to be considered. Selection of an optimal combination of these
-variables is thus becoming crucial in a Bayesian setting. The posterior
-distribution of the models can be viewed as a relevant measure for the model
-evidence, based on the observed data. The number of models to select from is
-exponential in the number of candidate variables, moreover the search space
-in this context is often extremely non-concave and has numerous local
-extrema or statistically speaking modes. Hence efficient search algorithms
-have to be adopted for evaluating the posterior distribution within a
-reasonable amount of time. In this paper we introduce and implement
-efficient mode jumping MCMC algorithms for calculating posterior
-probabilities of the models for generalized linear models with a random
-effect. Marginal likelihoods of models, given the specific choice of priors
-and any choice of covariates, can be efficiently calculated using the
-integrated nested Laplace approximations approach ([INLA](http://www.r-inla.org/)) for the class of
-models addressed, however for some particular cases exact results are also
-available. We further apply the suggested algorithm to some simulated [data1](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/Simulated%20Data%20%28Example%201%29) and [data2](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/Simulated%20Logistic%20Data%20With%20Multiple%20Modes%20%28Example%203%29),
-the famous [U.S. crime data](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/US%20Data), [protein activity data](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/Protein%20Activity%20Data), [real epigenetic data](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/Epigenetic%20Data), and [NEO-nonNEO asteroids data](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/asteroid%20data) and compare its performance to some of the existing approaches like [BAS](https://cran.r-project.org/web/packages/BAS/index.html), RS
-or MC3. 
+## Bayesian model configuration, selection and averaging in complex regression contexts
 
-* Full text of the paper is available on [arXiv](http://arxiv.org/abs/1604.06398)
+
+In this R package problems of Bayesian model selection and model averaging are addressed in various complex regression contexts. The approaches developed within the package are based on the idea of marginalizing out parameters from the likelihood. This allows to work on the marginal space of models, which simplifies the search algorithms significantly. For the generalized linear mixed models an efficient mode jumping Monte Carlo Markov chain (MJMCMC) algorithm is implemented. The approach performs very well on simulated and real data. Further, the algorithm is extended to work with logic regressions, where one has a feature space consisting of various complicated logical expressions, which makes enumeration of all features computationally and memory infeasible in most of the cases. The genetically modified MJMCMC (GMJMCMC) algorithm is simplemented suggested to tackle this issue. The algorithm combines the idea of keeping and updating the populations of highly predictive logical expressions combined with MJMCMC for the efficient exploration of the model space. Several simulation and real data studies show that logical expressions of high orders can be recovered with large power and low false discovery rate. Moreover, the GMJMCMC approach is adapted to make inference within the class of deep Bayesian regression models (which is a suggested in the thesis extension of various machine and statistical learning models like artificial neural networks, classification and regression trees, logic regressions and linear models). The reversible GMJMCMC, named RGMJMCMC, is also suggested. It makes transitions between the populations of variables in a way that satisfies the detailed balance equation. Based on several examples, it is shown that the DBRM approach can be efficient for both inference and prediction in various applications. In particular, two ground physical laws (planetary mass law and third Kepler’s law) can be recovered from the data with large power and low false discovery rate. Three classification examples are also studied, where the comparison to other popular machine and statistical learning approaches is performed. Finally, a thorough study comparing different Bayesian approaches to genome wide association is done. It is shown that the developed in this thesis approaches can be in principle applied to data with a huge number of covariates.
+
+* Full text of the papers are available on [arXiv](http://arxiv.org/abs/1604.06398)
 
 * Short version of the paper is available on [GitHub](https://github.com/aliaksah/EMJMCMC2016/blob/master/paper/paper_short.pdf)
 
