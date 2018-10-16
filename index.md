@@ -13,16 +13,16 @@ In this R package problems of Bayesian model selection and model averaging are a
 
 ***
 
-* To install the latest version run
+* To install the latest version run:
 ```R 
 install_github("aliaksah/EMJMCMC2016")
 ``` 
-* Or choose the version of interest on https://github.com/aliaksah/EMJMCMC2016/  and install it directly
+* Or choose the version of interest on https://github.com/aliaksah/EMJMCMC2016/  and install it directly by:
 ```R 
 install.packages("https://github.com/aliaksah/EMJMCMC2016/raw/master/EMJMCMC_1.4_bin.tar.gz", repos = NULL, type="source")
 ```
 
-* Notice that some dependencies might be required. To install dependencies before installation of the package run 
+* Notice that some dependencies might be required. To install dependencies before installation of the package run:
 ```R 
 source("https://raw.githubusercontent.com/aliaksah/EMJMCMC2016/master/R/the_mode_jumping_package4.r")
 ``` 
