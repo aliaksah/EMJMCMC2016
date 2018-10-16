@@ -47,20 +47,47 @@ LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G"
 
 ***
 
-The research was presented during several talks
+**Additionally the research was presented via the following selected contributions:**
 
-1. [The first annual conference of NORBIS, Rosendal, Norway, October 2015](http://norbis.no/files/2015/03/Full-program-NORBIS-Annual-Meeting.pdf)
-2. Statistics in Genomics Discussion Group Meeting, Oslo, Norway, November 2015
-3. [8th Conference on Computational and Methodological Statistics, London, UK, December 2015](http://cmstatistics.org/RegistrationsV2/CFE2015/viewSubmission.php?id=1533&token=044snso7ns3q3041q240qr64s2o38p20)
-4. [Colloquium Talk at Wiener Biometrische Sektion, Vienna, Austria, March 2016](http://www.meduniwien.ac.at/wbs/kolloquien.html)
-5. [Colloquium Talk at Belarus State University, Minsk, Belarus, March 2016](http://www.fpmi.bsu.by/ImgFpmi/Cache/Page/15303.pdf)
-6. [Game of Epigenetics Conference, Dubrovnik, Croatia, April 2016](http://goe.irb.hr/Programme/Variable-selection-in-binomial-regression-with-latent-Gaussian-field-models-for-analysis-of-epigenetic-data)
-7. Astrophysics talk (Department of Astrophysics, University of Oslo), Oslo, Norway, May 2016
-8. [NordStat 2016 conference in mathematical statistics, Copenhagen, Denmark, June 2016](http://nordstat2016.dk/posterabstracts.php#1) 
-9. [11th International Conference
-COMPUTER DATA ANALYSIS & MODELING 2016
-Theoretical & Applied Stochastics
-, Minsk, Belarus, September 2016](http://www.cdam.bsu.by/en/sm.aspx?guid=3033)
+*Academic journal articles*
+
+1. Hubin, Aliaksandr; Storvik, Geir Olve. Mode jumping MCMC for Bayesian variable selection in GLMM. Computational Statistics & Data Analysis (ISSN 0167-9473). 127 pp 281-297. doi: 10.1016/j.csda.2018.05.020. 2018.
+
+*Academic lectures*
+
+1. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A novel algorithmic approach to Bayesian Logic Regression. Seminar, Tuesday Seminar at UiO; Blindern, 25.04.2017.
+2014
+
+*Scientific lectures*
+
+1. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. Deep non-linear regression models in a Bayesian framework. Seminar, Biometrischen Kolloquium; Vienna, 16.10.2017.
+
+2. Hubin, Aliaksandr; Storvik, Geir Olve; Grini, Paul Eivind. Variable selection in binomial regression with latent Gaussian field models for analysis of epigenetic data. Konferanse, CEN-ISBS-2017; Vienna, 28.08.2017 - 01.09.2017.
+
+3. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A novel GMJMCMC algorithm for Bayesian Logic Regression models. Workshop, ML@UiO; Oslo, 01.06.2017.
+2016
+
+4. Hubin, Aliaksandr; Storvik, Geir Olve. On Mode Jumping in MCMC for Bayesian Variable Selection within GLMM. Konferanse, 11th International Conference COMPUTER DATA ANALYSIS & MODELING 2016 Theoretical & Applied Stochastics; Minsk, 06.09.2016 - 09.09.2016.
+
+5. Hubin, Aliaksandr; Storvik, Geir Olve. VARIABLE SELECTION IN BINOMIAL REGRESSION WITH LATENT GAUSSIAN FIELD MODELS FOR ANALYSIS OF EPIGENETIC DATA. Konferanse, Game of Epigenomics Conference; Dubrovnik, 24.04.2016 - 28.04.2016.
+
+6. Hubin, Aliaksandr; Storvik, Geir Olve. Variable selection in logistic regression with a latent Gaussian field models with an application in epigenomics. Gjesteforelesning, Guest Lecture; Vienna, 21.03.2016.
+2015
+
+7. Hubin, Aliaksandr; Storvik, Geir Olve. On model selection in Hidden Markov Models with covariates. Workshop, Klækken Workshop 2015; Klækken, 29.05.2015.
+
+8. Hubin, Aliaksandr; Storvik, Geir Olve. Variable selection in binomial regression with a latent Gaussian field models for analysis of epigenetic data. Konferanse, CMStatistics 2015; London, 11.12.2015 - 14.12.2015.
+
+9. Hubin, Aliaksandr; Storvik, Geir Olve. Variable selection in binomial regression with a latent Gaussian field models for analysis of epigenetic data. Årsmøte, Norbis Annual Meeting 2015; Rosendal, 27.10.2015 - 30.10.2015.
+
+*Posters at scientific conferences*
+
+1. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A novel algorithmic approach to Bayesian Logic Regression. 2017 14th Graybill Conference on Statistical Genomics and Genetics; Fort Collins, 05.06.2017 - 07.06.2017.
+
+2. Hubin, Aliaksandr; Storvik, Geir Olve. Efficient mode jumping MCMC for Bayesian variable selection and model averaging in GLMM. Geilo Winter School 2017; Geilo, 15.01.2017 - 20.01.2017.
+2016
+
+3. Hubin, Aliaksandr; Storvik, Geir Olve. Efficient mode jumping MCMC for Bayesian variable selection in GLM with random effects models. NordStat 2016; Copenhagen, 27.06.2016 - 30.06.2016. 
 
 ***
 
