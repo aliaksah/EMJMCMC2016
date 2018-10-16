@@ -17,34 +17,30 @@ In this R package problems of Bayesian model selection and model averaging are a
 ```R 
 install_github("aliaksah/EMJMCMC2016")
 ``` 
-.
 * Or choose the version of interest on https://github.com/aliaksah/EMJMCMC2016/  and install it directly
 ```R 
 install.packages("https://github.com/aliaksah/EMJMCMC2016/raw/master/EMJMCMC_1.4_bin.tar.gz", repos = NULL, type="source")
 ```
-.
 
-* Notice that some dependencies might be required. To install dependencies run 
+* Notice that some dependencies might be required. To install dependencies before installation of the package run 
 ```R 
 source("https://raw.githubusercontent.com/aliaksah/EMJMCMC2016/master/R/the_mode_jumping_package4.r")
 ``` 
-before installation of the package.
 
-* An expert one threaded call of (R)(G)MJMCMC is: 
+* An expert one threaded call of (R)(G)MJMCMC is (see [runemjmcmc](https://rdrr.io/github/aliaksah/EMJMCMC2016/src/examples/runemjmcm/runemjmcmc.R) for details): 
 ```R 
 runemjmcmc(formula = formula1,data = data.example,recalc_margin = 2^10,estimator =estimate.bas.lm,estimator.args =  list(data = data.example,prior = 3, g = 96 ,n=96),save.beta = T,interact = T,relations = c("","sin","cos","sigmoid","tanh","atan","erf"),relations.prob =c(0.4,0.1,0.1,0.1,0.1,0.1,0.1),interact.param=list(allow_offsprings=2,mutation_rate = 100, max.tree.size = 200000, Nvars.max = 95,p.allow.replace=0.9,p.allow.tree=0.5,p.nor=0.3,p.and = 0.7),n.models = 50000,unique = T,max.cpu = 10,max.cpu.glob = 10,create.table = F,create.hash = T,pseudo.paral = F,burn.in = 100,print.freq = 100,advanced.param = list(                                                                                                                                                                                                                                                                                                    max.N.glob=as.integer(20),                                                                                                                                                                                                                                                                                                     min.N.glob=as.integer(5),                                                                                                                                                                                                                                                                                                    max.N=as.integer(3),                                                                                                                                                                                                                                                                                                      min.N=as.integer(1),                                                                                                                                                                                                                                                                                                  printable = F))})
 ```
-, see [runemjmcmc](https://rdrr.io/github/aliaksah/EMJMCMC2016/src/examples/runemjmcm/runemjmcmc.R) for details.
 * An expert parallel call of (R)(G)MCMC with predictions is: 
 ```R 
 pinferunemjmcmc(n.cores =30, report.level =  0.8 , num.mod.best = NM,simplify = T, predict = T,test.data = as.data.frame(test),link.function = g, runemjmcmc.params =list(formula = formula1,data = data.example,gen.prob = c(1,1,1,1,0),estimator =estimate.bas.glm.cpen,estimator.args =  list(data = data.example,prior = aic.prior(),family = binomial(),yid=31, logn = log(143),r=exp(-0.5)),recalc_margin = 95, save.beta = T,interact = T,relations = c("gauss","tanh","atan","sin"),relations.prob =c(0.1,0.1,0.1,0.1),interact.param=list(allow_offsprings=4,mutation_rate = 100,last.mutation=1000, max.tree.size = 6, Nvars.max = 20,p.allow.replace=0.5,p.allow.tree=0.4,p.nor=0.3,p.and = 0.9),n.models = 7000,unique =T,max.cpu = 4,max.cpu.glob = 4,create.table = F,create.hash = T,pseudo.paral = T,burn.in = 100,print.freq = 1000,advanced.param = list(max.N.glob=as.integer(10), min.N.glob=as.integer(5), max.N=as.integer(3), min.N=as.integer(1), printable = F)))
 ```
-. 
 * A simple call of parallel inference on Bayesian logic regression is: 
 ```R 
 LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G",report.level = 0.5,d = 15,cmax = 2,kmax = 15,p.and = 0.9,p.not = 0.01,p.surv = 0.2,ncores = 32)
 ```
-. Similar simple calls for DBRM will be added soon.
+* Similar simple calls for DBRM will be added soon.
+
 ***
 
 The research was presented during several talks
