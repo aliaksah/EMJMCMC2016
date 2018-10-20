@@ -30,7 +30,7 @@ install.packages("https://github.com/aliaksah/EMJMCMC2016/blob/master/EMJMCMC_1.
 install.packages("https://github.com/aliaksah/EMJMCMC2016/blob/master/EMJMCMC_1.4.2_binary.tar.gz?raw=true", repos = NULL, type="source")
 ```
 
-* Notice that some dependencies might be required. To install dependencies before installation of the package run (additionally, this will also load the source code for the EMJMCMC2016 package without installing it):
+* Notice that some dependencies might be required. To install dependencies before installation of the package run (additionally, this will  load the source code for the EMJMCMC2016 package without installing it, which might be of interest for Windows users):
 ```R 
 source("https://raw.githubusercontent.com/aliaksah/EMJMCMC2016/master/R/the_mode_jumping_package4.r")
 ``` 
