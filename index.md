@@ -10,6 +10,7 @@ In this R package problems of Bayesian model selection and model averaging are a
 * Full text of the paper introducing MJMCMC for Bayesian variable selection: [arXiv](http://arxiv.org/abs/1604.06398)
 * Full text of the paper introducing GMJMCMC for inference on Bayesian logic regressions: [arXiv](https://arxiv.org/abs/1705.07616)
 * Full text of the paper introducing DBRM and GMJMCMC, RGMJMCMC algorithms for DBRM: [arXiv](https://arxiv.org/abs/1806.02160)
+* Supplementaries to these papers are available on [GitHub](https://github.com/aliaksah/EMJMCMC2016/tree/master/supplementaries)
 * Presentations of the talks are available on [GitHub](https://github.com/aliaksah/EMJMCMC2016/tree/master/presentations)
 * Latest issues of the package are available on [GitHub](https://github.com/aliaksah/EMJMCMC2016/)
 * Some applications of the package are available on [GitHub](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/)  
