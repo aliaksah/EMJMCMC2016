@@ -21,9 +21,9 @@ In this R package problems of Bayesian model selection and model averaging are a
 ```R 
 install_github("aliaksah/EMJMCMC2016")
 ``` 
-* Or choose the version of interest on https://github.com/aliaksah/EMJMCMC2016/  and install it directly by:
+* Install source on Linux or Mac:
 ```R 
-install.packages("https://github.com/aliaksah/EMJMCMC2016/raw/master/EMJMCMC_1.4_bin.tar.gz", repos = NULL, type="source")
+install.packages("https://github.com/aliaksah/EMJMCMC2016/blob/master/EMJMCMC_1.4.2_R_x86_64-pc-linux-gnu.tar.gz?raw=true", repos = NULL, type="source")
 ```
 
 * Notice that some dependencies might be required. To install dependencies before installation of the package run (additionally, this will also load the source code for the EMJMCMC2016 package without installing it):
