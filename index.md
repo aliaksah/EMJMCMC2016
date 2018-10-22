@@ -40,8 +40,7 @@ pinferunemjmcmc(n.cores =30, report.level =  0.8 , num.mod.best = NM,simplify = 
 ```R 
 LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G",report.level = 0.5,d = 15,cmax = 2,kmax = 15,p.and = 0.9,p.not = 0.01,p.surv = 0.2,ncores = 32)
 ```
-* Examples of simple calls of LogicRegr can be found on [GitHub](https://github.com/aliaksah/EMJMCMC2016/blob/master/supplementaries/Bayesian%20Logic%20Regression/simple%20usage/inference_help.r)
-* Similar simple calls for DBRM will be added soon.
+* Examples of simple calls of LogicRegr can be found on [GitHub](https://github.com/aliaksah/EMJMCMC2016/blob/master/supplementaries/Bayesian%20Logic%20Regression/simple%20usage/inference_help.r). Similar simple calls for DBRM will be added soon.
 
 ***
 
