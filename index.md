@@ -4,7 +4,7 @@ In this R package problems of Bayesian model selection and model averaging are a
 </p>
 
 ***
-
+ 
 ***
 
 * Full text of the paper introducing MJMCMC for Bayesian variable selection: [arXiv](http://arxiv.org/abs/1604.06398)
