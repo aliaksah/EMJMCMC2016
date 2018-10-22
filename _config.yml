@@ -2,7 +2,6 @@ title: Bayesian model configuration in complex regression contexts
 description: A package with mode jumping MCMC and its modifications for Bayesian variable selection and model averaging in various regression contexts
 google_analytics: UA-127558704-1
 show_downloads: true
-future: true
-timezone: CET
 theme: jekyll-theme-cayman
-gems: - jekyll-mentions
+gems: 
+  - jekyll-mentions
