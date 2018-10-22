@@ -5,6 +5,4 @@ show_downloads: true
 future: true
 timezone: CET
 theme: jekyll-theme-cayman
-
-gems:
-  - jekyll-mentions
+gems: - jekyll-mentions
