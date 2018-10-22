@@ -16,7 +16,7 @@ In this R package problems of Bayesian model selection and model averaging are a
 * Some applications of the package are available on [GitHub](https://github.com/aliaksah/EMJMCMC2016/tree/master/examples/)  
 
 
-***
+*** 
 
 * Install binary on Linux or Mac Os:
 ```R 
