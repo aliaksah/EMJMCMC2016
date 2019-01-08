@@ -50,7 +50,7 @@ LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G"
 
 1. Hubin, Aliaksandr; Storvik, Geir Olve. Mode jumping MCMC for Bayesian variable selection in GLMM. Computational Statistics & Data Analysis (ISSN 0167-9473). 127 pp 281-297. doi: 10.1016/j.csda.2018.05.020. 2018.
 
-2. Hubin, Aliaksandr; Storvik, Geir Olve. Mode jumping MCMC for Bayesian variable selection in GLMM. Computational Statistics & Data Analysis (ISSN 0167-9473). 127 pp 281-297. doi: 10.1016/j.csda.2018.05.020. 2018.
+2. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A Novel Algorithmic Approach to Bayesian Logic Regression. Bayesian Analysis (ISSN 1936-0975). 2018.
 
 *Academic lectures*
 
