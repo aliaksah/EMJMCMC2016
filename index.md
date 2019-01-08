@@ -50,10 +50,15 @@ LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G"
 
 1. Hubin, Aliaksandr; Storvik, Geir Olve. Mode jumping MCMC for Bayesian variable selection in GLMM. Computational Statistics & Data Analysis (ISSN 0167-9473). 127 pp 281-297. doi: 10.1016/j.csda.2018.05.020. 2018.
 
+2. Hubin, Aliaksandr; Storvik, Geir Olve. Mode jumping MCMC for Bayesian variable selection in GLMM. Computational Statistics & Data Analysis (ISSN 0167-9473). 127 pp 281-297. doi: 10.1016/j.csda.2018.05.020. 2018.
+
 *Academic lectures*
 
 1. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A novel algorithmic approach to Bayesian Logic Regression. Seminar, Tuesday Seminar at UiO; Blindern, 25.04.2017.
-2014
+
+2. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. Deep Bayesian regression models. Seminar, Machine learning seminar at UiO; Oslo, 13.12.2018.
+
+3. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. Deep Bayesian regression models. Invited lecture, Seminar on Bayesian Methods in Machine Learning; Yandex School of Data Analysis, Moscow, 16.03.2018. 
 
 *Scientific lectures*
 
@@ -77,6 +82,10 @@ LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G"
 
 9. Hubin, Aliaksandr; Storvik, Geir Olve. Variable selection in binomial regression with a latent Gaussian field models for analysis of epigenetic data. Årsmøte, Norbis Annual Meeting 2015; Rosendal, 27.10.2015 - 30.10.2015.
 
+10. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. Deep Bayesian regression models. Konferanse, FocuStat Conference; Oslo, 21.05.2018 - 25.05.2018.
+
+11. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. Deep Bayesian regression models. Konferanse, NORDSTAT2018 conference; Tartu, 26.06.2018 - 29.06.2018. 
+
 *Posters at scientific conferences*
 
 1. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A novel algorithmic approach to Bayesian Logic Regression. 2017 14th Graybill Conference on Statistical Genomics and Genetics; Fort Collins, 05.06.2017 - 07.06.2017.
@@ -85,6 +94,12 @@ LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G"
 2016
 
 3. Hubin, Aliaksandr; Storvik, Geir Olve. Efficient mode jumping MCMC for Bayesian variable selection in GLM with random effects models. NordStat 2016; Copenhagen, 27.06.2016 - 30.06.2016. 
+
+4. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. Deep Bayesian regression models. IBC2018; Barcelona, 08.07.2018 - 13.07.2018. 
+
+*Doctoral dissertation*
+
+1. Hubin, Aliaksandr. Bayesian model configuration, selection and averaging in complex regression contexts. : Series of dissertations submitted to the Faculty of Mathematics and Natural Sciences, University of Oslo (ISSN 1501-7710). (2035). pp 215. 2018. 
 
 ***
 
