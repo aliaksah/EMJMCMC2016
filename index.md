@@ -52,6 +52,9 @@ LogicRegr(formula = formula1,data = data.example,family = "Gaussian",prior = "G"
 
 2. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A Novel Algorithmic Approach to Bayesian Logic Regression. Bayesian Analysis (ISSN 1936-0975). 2018.
 
+
+3. Hubin, Aliaksandr, Storvik, Geir, Paul, & Butenko, Melinka (2020). A Bayesian Binomial Regression Model with Latent Gaussian Processes for Modelling DNA Methylation. Austrian Journal of Statistics, 49(4), 46-56.
+
 *Academic lectures*
 
 1. Hubin, Aliaksandr; Storvik, Geir Olve; Frommlet, Florian. A novel algorithmic approach to Bayesian Logic Regression. Seminar, Tuesday Seminar at UiO; Blindern, 25.04.2017.
